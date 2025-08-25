@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Instagram, Facebook, Twitter, ArrowDown } from "lucide-react";
-import developerPortrait from "@/assets/developer-portrait.jpg";
+import aiDeveloperAvatar from "@/assets/ai-developer-avatar.jpg";
 
 const Hero = () => {
   const socialLinks = [
@@ -68,8 +68,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full border-2 border-primary shadow-glow overflow-hidden animate-glow">
                 <img
-                  src={developerPortrait}
-                  alt="Priyanshu Rawat - Web Developer"
+                  src={aiDeveloperAvatar}
+                  alt="Priyanshu Rawat - AI Developer Avatar"
                   className="w-full h-full object-cover"
                 />
               </div>
