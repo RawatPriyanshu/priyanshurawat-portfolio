@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
-import logo from "@/assets/logo-transparent.png";
+import LogoProcessor from "./LogoProcessor";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [logoUrl, setLogoUrl] = useState("/lovable-uploads/beef1e60-e864-4357-9372-8d10ba9fedd0.png");
   
   const footerLinks = [
     { href: "#home", label: "Home" },
@@ -33,7 +35,8 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src={logo} alt="Logo" className="w-8 h-8" />
+              <LogoProcessor onProcessed={setLogoUrl} />
+              <img src={logoUrl} alt="Logo" className="w-8 h-8" />
               <span className="text-xl font-heading font-bold text-gradient">
                 PORTFOLIO
               </span>
