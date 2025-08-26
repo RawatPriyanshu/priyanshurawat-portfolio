@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import LogoProcessor from "./LogoProcessor";
+import logoTransparent from "@/assets/logo-transparent.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [logoUrl, setLogoUrl] = useState("/lovable-uploads/beef1e60-e864-4357-9372-8d10ba9fedd0.png");
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,8 +44,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <LogoProcessor onProcessed={setLogoUrl} />
-            <img src={logoUrl} alt="Logo" className="w-8 h-8" />
+            <img src={logoTransparent} alt="Logo" className="w-8 h-8" />
             <span className="text-xl font-heading font-bold text-gradient">
               PORTFOLIO
             </span>
