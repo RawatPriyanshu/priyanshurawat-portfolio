@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoTransparent from "@/assets/logo-transparent.png";
+const logoUrl = "/lovable-uploads/9410b094-e5f0-4c43-9038-4348e262d29d.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,7 +44,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logoTransparent} alt="Logo" className="w-8 h-8" />
+            <img src={logoUrl} alt="Logo" className="w-8 h-8" />
             <span className="text-xl font-heading font-bold text-gradient">
               PORTFOLIO
             </span>

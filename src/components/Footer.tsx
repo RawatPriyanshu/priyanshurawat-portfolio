@@ -1,5 +1,5 @@
 import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
-import logoTransparent from "@/assets/logo-transparent.png";
+const logoUrl = "/lovable-uploads/9410b094-e5f0-4c43-9038-4348e262d29d.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -34,7 +34,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <img src={logoTransparent} alt="Logo" className="w-8 h-8" />
+              <img src={logoUrl} alt="Logo" className="w-8 h-8" />
               <span className="text-xl font-heading font-bold text-gradient">
                 PORTFOLIO
               </span>
