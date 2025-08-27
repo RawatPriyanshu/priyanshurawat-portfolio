@@ -1,54 +1,84 @@
-# Welcome to your Lovable project
+# Priyanshu Rawat - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Web Developer. Built with cutting-edge technologies for optimal performance and user experience.
 
-**URL**: https://lovable.dev/projects/fc2b3b0d-576c-496c-8f25-55101cd00dea
+## 🚀 Live Demo
 
-## How can I edit this code?
+**[View Live Website](https://fc2b3b0d-576c-496c-8f25-55101cd00dea.lovableproject.com)**
 
-There are several ways of editing your application.
+## 📋 Overview
 
-**Use Lovable**
+This portfolio website serves as a comprehensive showcase of my professional journey, technical expertise, and creative projects. The site features a clean, modern design with smooth animations and responsive layouts that work seamlessly across all devices.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fc2b3b0d-576c-496c-8f25-55101cd00dea) and start prompting.
+### ✨ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Hero Section**: Dynamic introduction with personal branding and social media links
+- **Skills Showcase**: Interactive progress bars and circular indicators displaying technical and professional competencies
+- **Project Portfolio**: Detailed project cards with live demos, source code links, and technology stacks
+- **Professional Resume**: Timeline-based education and experience sections with downloadable resume
+- **Contact Form**: Direct communication channel with form validation
+- **Responsive Design**: Mobile-first approach ensuring perfect display on all screen sizes
+- **Dark/Light Theme**: Adaptive color schemes for enhanced user experience
+- **Smooth Animations**: Engaging micro-interactions and transitions
+- **SEO Optimized**: Semantic HTML structure with proper meta tags for search engine visibility
 
-**Use your preferred IDE**
+### 🛠️ Technical Highlights
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Modern React Architecture**: Component-based structure with TypeScript for type safety
+- **Performance Optimized**: Fast loading times with optimized assets and code splitting
+- **Accessible Design**: WCAG compliant with proper ARIA labels and keyboard navigation
+- **Clean Code**: Maintainable codebase following best practices and design patterns
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎯 Sections
 
-Follow these steps:
+1. **Hero** - Personal introduction and key messaging
+2. **Skills** - Technical proficiencies and professional competencies  
+3. **Projects** - Portfolio of completed work with detailed descriptions
+4. **Resume** - Educational background and professional experience
+5. **Contact** - Multiple ways to get in touch
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🏃‍♂️ Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔧 Development
+
+**Edit with Lovable IDE**
+
+The easiest way to edit this project is through the [Lovable Platform](https://lovable.dev/projects/fc2b3b0d-576c-496c-8f25-55101cd00dea). Changes made via Lovable are automatically committed to this repository.
+
+**Local Development**
+
+You can also edit locally using your preferred IDE. Any changes pushed to the repository will be reflected in the Lovable platform.
 
 ## What technologies are used for this project?
 
