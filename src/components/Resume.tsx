@@ -28,13 +28,13 @@ const Resume = () => {
     {
       role: "MERN Stack Training",
       company: "Reputed Training Institute",
-      period: "Current",
-      description: "Currently undergoing MERN stack training at a reputed institute to enhance my full-stack development skills and stay updated with modern web technologies."
+      period: "2024",
+      description: "Undergoing MERN stack training at a reputed institute to enhance my full-stack development skills and stay updated with modern web technologies."
     },
     {
       role: "Virtual Internship",
       company: "CodeSoft",
-      period: "Recent",
+      period: "2024",
       description: "Gaining hands-on experience by working on real-world projects, sharpening my expertise in web development and collaborative programming."
     }
   ];
